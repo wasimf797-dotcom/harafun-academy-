@@ -10,7 +10,7 @@ collections:
     label: "আরবি লেসন"
     folder: "content/arbi"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
             - {label: "শিরোনাম", name: "title", widget: "string"}
             - {label: "প্রকাশের তারিখ", name: "date", widget: "datetime"}
@@ -22,7 +22,7 @@ collections:
     label: "ব্লগ"
     folder: "content/blog"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
             - {label: "শিরোনাম", name: "title", widget: "string"}
             - {label: "প্রকাশের তারিখ", name: "date", widget: "datetime"}
@@ -33,7 +33,7 @@ collections:
     label: "বিবিধ"
     folder: "content/bibidh"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
             - {label: "শিরোনাম", name: "title", widget: "string"}
             - {label: "প্রকাশের তারিখ", name: "date", widget: "datetime"}
@@ -43,7 +43,7 @@ collections:
     label: "লাইফস্টাইল"
     folder: "content/lifestyle"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
             - {label: "শিরোনাম", name: "title", widget: "string"}
             - {label: "প্রকাশের তারিখ", name: "date", widget: "datetime"}
@@ -53,7 +53,7 @@ collections:
     label: "নোটিশ"
     folder: "content/notice"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
             - {label: "শিরোনাম", name: "title", widget: "string"}
             - {label: "প্রকাশের তারিখ", name: "date", widget: "datetime"}
